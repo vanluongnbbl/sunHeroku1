@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.bread {
+  display: flex;
+  margin: 35px 0; }
+  .bread__item {
+    font-size: 14px;
+    color: #363636; }
+  .bread__item:first-child::before {
+    content: "";
+    margin: 0; }
+  .bread__item--active {
+    color: #000;
+    font-weight: 500; }
+  .bread__item::before {
+    content: "❯";
+    margin: 0 10px; }
+
+div.category-container {
+  margin-bottom: 100px; }
+
+.product-category {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  border-bottom: 1px solid #e1e1e1; }
+  .product-category__filter {
+    margin-right: 30px; }
+    .product-category__filter .sort .text {
+      font-size: 14px;
+      color: #363636; }
+    .product-category__filter .sort #product-category {
+      padding: 4px 10px;
+      width: 150px;
+      margin-left: 5px;
+      border: 1px solid #e1e1e1;
+      outline: none;
+      border-color: #898989 !important;
+      color: #898989; }
+      .product-category__filter .sort #product-category option {
+        font-size: 14px;
+        color: #898989; }
+  .product-category .show-type {
+    display: flex;
+    position: absolute;
+    right: 0; }
+    .product-category .show-type .multiple {
+      border: 1px solid #e1e1e1;
+      padding: 4px;
+      margin-left: 10px;
+      cursor: pointer; }
+
+.new-order-container.category .product-container .product {
+  margin-bottom: 30px; }
+  .new-order-container.category .product-container .product__img {
+    width: 25%; }
+  .new-order-container.category .product-container .product .product-inner {
+    width: 75%; }
+    .new-order-container.category .product-container .product .product-inner .desc {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; }
+
+.pagination {
+  display: flex;
+  justify-content: flex-end; }
+  .pagination__item {
+    padding: 6px 13px;
+    margin-right: 5px;
+    color: #898989;
+    font-size: 13px;
+    border: 1px solid #ccc; }
+  .pagination__item--select {
+    color: #fff;
+    background-color: #f5bd10; }
+
+@media (max-width: 768px) {
+  div.category-container .product-category {
+    margin-bottom: 60px;
+    border-bottom: none; }
+    div.category-container .product-category .show-type {
+      left: 0;
+      top: 60px; } }
+
+/*# sourceMappingURL=list-page.css.map */

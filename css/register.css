@@ -1,0 +1,145 @@
+.register-container .register__title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #252525;
+  margin-bottom: 40px; }
+.register-container .register__form .text {
+  font-size: 14px; }
+  .register-container .register__form .text strong {
+    color: red;
+    margin-left: 3px; }
+.register-container .register__form input {
+  border: 1px solid #e1e1e1;
+  outline: none;
+  width: 100%;
+  padding: 12px 15px;
+  margin: 20px 25px 20 0; }
+.register-container .register .checkbox {
+  position: relative;
+  margin-bottom: 45px; }
+  .register-container .register .checkbox input {
+    cursor: pointer;
+    margin-right: 15px;
+    width: auto; }
+  .register-container .register .checkbox span {
+    font-size: 14px;
+    font-style: italic;
+    color: #898989; }
+  .register-container .register .checkbox a {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 14px;
+    color: #f5bd10;
+    font-style: italic;
+    text-decoration: underline; }
+.register-container .register__btn {
+  margin-top: 40px;
+  margin-bottom: 90px; }
+  .register-container .register__btn a {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 9px 20px;
+    margin-right: 20px; }
+  .register-container .register__btn .back {
+    background-color: #000; }
+  .register-container .register__btn .submit {
+    background-color: #f5bd10; }
+.register-container .register .login-desc {
+  font-size: 14px;
+  color: #898989; }
+
+.not-found {
+  margin: 90px 0; }
+  .not-found img {
+    width: 100%;
+    margin-top: 20px; }
+  .not-found__title {
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f5bd10;
+    text-align: center; }
+  .not-found__desc {
+    color: #252525;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px; }
+  .not-found__col {
+    text-align: center;
+    margin: auto; }
+  .not-found__btn {
+    color: #fff;
+    padding: 9px 20px;
+    cursor: pointer;
+    background-color: #000; }
+
+.shopping-cart.table1 {
+  overflow-x: auto; }
+
+.shopping-cart {
+  margin-bottom: 90px; }
+  .shopping-cart__table {
+    border-collapse: collapse;
+    width: 100%; }
+  .shopping-cart__item {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #252525;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: center; }
+    .shopping-cart__item strong {
+      cursor: pointer;
+      color: red; }
+  .shopping-cart__item.payment {
+    color: red;
+    font-size: 18px; }
+  .shopping-cart__table.table-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+    .shopping-cart__table.table-2 .item1 {
+      width: 280px;
+      text-align: end; }
+    .shopping-cart__table.table-2 .item2 {
+      width: 200px;
+      text-align: end; }
+  .shopping-cart__btn {
+    text-align: end; }
+    .shopping-cart__btn button {
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 12px 20px;
+      margin-left: 10px;
+      border: none;
+      outline: none; }
+    .shopping-cart__btn .next {
+      background-color: #000; }
+    .shopping-cart__btn .pay {
+      background-color: #f5bd10; }
+
+@media (max-width: 768px) {
+  .register-container .register__title, .register-container .register__btn,
+  .register-container .register .checkbox {
+    margin-left: 15px; }
+
+  div.login .register__title,
+  div.login .register__btn,
+  div.login div.checkbox {
+    margin-left: 0 !important; }
+  div.login div.checkbox a {
+    position: static !important;
+    display: block; }
+
+  .not-found__title {
+    font-size: 50px; } }
+
+/*# sourceMappingURL=register.css.map */

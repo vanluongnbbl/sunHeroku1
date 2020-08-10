@@ -1,0 +1,139 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+header .top-header .container .social-media__item, header .top-header .container .login-sign-up__item, header .main-header .wrapper-contacts, header .main-header .search-information, header nav.navbar-wrapper .navbar .cart__number {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+header .top-header {
+  height: 50px;
+  border-bottom: 1px solid #e1e1e1;
+  position: relative;
+  background-color: #f7f7f7; }
+  header .top-header .container {
+    position: relative; }
+    header .top-header .container .social-media {
+      display: flex; }
+      header .top-header .container .social-media__item:first-child {
+        border-left: 1px solid #e1e1e1;
+        background-color: #f5bd10; }
+      header .top-header .container .social-media__item {
+        width: 50px;
+        height: 50px;
+        border-bottom: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1; }
+    header .top-header .container .login-sign-up {
+      position: absolute;
+      right: 0;
+      display: flex; }
+      header .top-header .container .login-sign-up__item:first-child {
+        border-left: 1px solid #e1e1e1; }
+      header .top-header .container .login-sign-up__item {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 16px;
+        border-right: 1px solid #e1e1e1; }
+        header .top-header .container .login-sign-up__item a {
+          color: #363636; }
+header .main-header {
+  display: flex;
+  flex: 1; }
+  header .main-header .logo-brand {
+    flex: 1; }
+    header .main-header .logo-brand img {
+      width: 140px;
+      height: 92px; }
+  header .main-header .wrapper-contacts {
+    flex: 2; }
+    header .main-header .wrapper-contacts .contacts {
+      margin-right: 60px; }
+      header .main-header .wrapper-contacts .contacts__title {
+        color: #f7cb5e;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px; }
+      header .main-header .wrapper-contacts .contacts__info {
+        font-size: 13px; }
+        header .main-header .wrapper-contacts .contacts__info a {
+          color: #9c9c9c; }
+  header .main-header .search-information {
+    flex: 1;
+    position: relative; }
+    header .main-header .search-information input {
+      padding: 8px 25px;
+      width: 320px;
+      border-radius: 20px;
+      border: 1px solid #e1e1e1;
+      outline: none; }
+    header .main-header .search-information img {
+      position: absolute;
+      right: 20px;
+      cursor: pointer; }
+header nav.navbar-wrapper {
+  background-color: #202020;
+  height: 70px; }
+  header nav.navbar-wrapper .navbar {
+    position: relative; }
+    header nav.navbar-wrapper .navbar ul {
+      display: flex;
+      list-style: none;
+      position: relative;
+      left: -40px;
+      height: 70px; }
+      header nav.navbar-wrapper .navbar ul .navbar__item:first-child {
+        border-left: 1px solid #363636; }
+      header nav.navbar-wrapper .navbar ul .navbar__item {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 0 25px;
+        border-right: 1px solid #363636; }
+        header nav.navbar-wrapper .navbar ul .navbar__item a {
+          color: #ffffff; }
+      header nav.navbar-wrapper .navbar ul .navbar--active {
+        background-color: #f5bd10; }
+    header nav.navbar-wrapper .navbar .cart {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-left: 1px solid #363636;
+      border-right: 1px solid #363636;
+      padding: 22px; }
+      header nav.navbar-wrapper .navbar .cart img {
+        width: 22px;
+        height: 21px;
+        cursor: pointer; }
+      header nav.navbar-wrapper .navbar .cart__number {
+        position: absolute;
+        top: 6.5px;
+        right: 6.5px;
+        border: 1px solid #f5bd10;
+        background-color: #f5bd10;
+        border-radius: 11px;
+        color: #ffffff;
+        width: 22px;
+        height: 22px; }
+
+/*# sourceMappingURL=header.css.map */
