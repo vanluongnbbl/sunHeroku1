@@ -58,9 +58,9 @@
           <input type="checkbox" id="menuToggle">
           <label class="menu-icon" for="menuToggle"><img src="../images/menu-icon.png" alt="menu icon"></label>
           <ul class="navbar__menu">
-            <li class="navbar__item navbar--active"><a href="#">Trang chủ</a></li>
+            <li class="navbar__item navbar--active"><a href="index.php">Trang chủ</a></li>
               <li class="navbar__item"><a href="blog.php">Giới thiệu</a></li>
-              <li class="navbar__item"><a href="list.php">Sản phẩm</a></li>
+              <li class="navbar__item"><a href="list-page.php">Sản phẩm</a></li>
               <li class="navbar__item"><a href="grid-page.php">Tin khuyến mại</a></li>
               <li class="navbar__item"><a href="blog-detail.php">Dịch vụ</a></li>
               <li class="navbar__item"><a href="page-404.php">Liên hệ</a></li>
