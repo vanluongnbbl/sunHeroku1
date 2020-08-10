@@ -26,8 +26,8 @@
               <div class="social-media__item"><a href="#"><img src="../images/socials/twitter.png" alt="twitter-icon"></a></div>
           </div>
           <div class="login-sign-up">
-            <div class="login-sign-up__item"><a href="register-page.html">Đăng ký</a></div>
-            <div class="login-sign-up__item"><a href="login.html">Đăng nhập</a></div>
+            <div class="login-sign-up__item"><a href="register-page.php">Đăng ký</a></div>
+            <div class="login-sign-up__item"><a href="login.php">Đăng nhập</a></div>
           </div>
         </div>
       </div>
@@ -59,15 +59,13 @@
           <label class="menu-icon" for="menuToggle"><img src="../images/menu-icon.png" alt="menu icon"></label>
           <ul class="navbar__menu">
             <li class="navbar__item navbar--active"><a href="#">Trang chủ</a></li>
-              <li class="navbar__item"><a href="#">Giới thiệu</a></li>
-              <li class="navbar__item"><a href="#">Sản phẩm</a></li>
-              <li class="navbar__item"><a href="#">Tin khuyến mại</a></li>
-              <li class="navbar__item"><a href="#">Dịch vụ</a></li>
-              <li class="navbar__item"><a href="#">Liên hệ</a></li>
-          </ul>
-          <div class="cart"><img src="../images/cart.png" alt="cart">
-            <div class="cart__number">0</div>
-          </div>
+              <li class="navbar__item"><a href="blog.php">Giới thiệu</a></li>
+              <li class="navbar__item"><a href="list.php">Sản phẩm</a></li>
+              <li class="navbar__item"><a href="grid-page.php">Tin khuyến mại</a></li>
+              <li class="navbar__item"><a href="blog-detail.php">Dịch vụ</a></li>
+              <li class="navbar__item"><a href="page-404.php">Liên hệ</a></li>
+          </ul><a class="cart" href="shopping-cart.php"><img src="../images/cart.png" alt="cart">
+            <div class="cart__number">0</div></a>
         </div>
       </div>
     </nav>
